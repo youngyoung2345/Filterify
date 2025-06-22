@@ -7,31 +7,31 @@
 
 ### Code instruction
 ```
-1. 'convert_from_json_to_csv.py'
+'convert_from_json_to_csv.py'
 ```
 
 json 형식으로 저장된 Audio Feature를 csv 형식으로 변환하는 코드입니다. 
 
 ```
-2. 'predict_tone_theme_from_cover.py', 'predict_tone_theme_from_description.py'
+'predict_tone_theme_from_cover.py', 'predict_tone_theme_from_description.py'
 ```
 
 앨범 커버 및 앨범 소개 기반으로 음원의 톤(Tone)과 테마(Theme)를 예측하는 코드입니다.
 
 ```
-3. 'embed_features.ipynb'
+'embed_features.ipynb'
 ```
 
 (1) 앨범 커버 및 앨범 소개 기반으로 예측한 음원의 톤(Tone)과 테마(Theme)에 대한 텍스트와 (2)앨범 커버 이미지를 CLIP Encoder를 사용하여 임베딩하는 코드입니다.
 
 ```
-4. 'Training.ipynb'
+'Training.ipynb'
 ```
 
 'embed_features.ipynb'를 통해 임베딩한 Visual Feature 및 Textual Feature를 활용하여 Audio Feature를 예측하는 Audio Feature Predictor를 학습 및 평가하는 코드입니다.
 
 ```
-5. 'Filtering.ipynb'
+'Filtering.ipynb'
 ```
 
 'Trainiing.ipynb'를 통해 학습 및 평가한 Audio Feature Predictor 및 Visual Feature, Textual Feature를 활용하여 주어진 플레이리스트에 대하여 필터링을 수행하는 코드입니다.
